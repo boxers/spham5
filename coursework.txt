@@ -1,0 +1,64 @@
+http://svn.cactuscode.org/flesh/trunk/src
+
+- svn log -r 7
+
+  Basic structure now implemented. Still needs all the code behind the skeleton.
+
+- svn log
+
+  Revision 1839 removed the macro GROUP_SCALAR
+
+- svn checkout http://svn.cactuscode.org/flesh/trunk/src
+
+  Checkout size: 4,307,114 bytes
+
+- svn export http://svn.cactuscode.org/flesh/trunk/src
+
+  Export size: 2,070,700 bytes
+
+The checkout was larger, because an export returns a clean copy of the repository without any of the .svn administrative directories.
+
+- svn --version --quiet
+  1.7.7
+
+
+
+
+
+https://github.com/lsuits/moodle
+
+Five forks
+
+- git show
+
+commit fdb7ebbb88566efb3c9171583d2001f6f0d766de
+
+yet another update to the readme
+
+- git show cc95aed777c75fe899992168fcd40031b45cb9b0
+
+
+
+diff --git a/README.md b/README.md
+
+index 620feca..c809eeb 100644
+
+--- a/README.md
+
++++ b/README.md
+
+@@ -7,6 +7,7 @@ Additional features included in this release
+
+ Gradebook
+
+ -
+
+ 1. Extra Credit in Weighted Mean.
+
++1. Repeat headers every N rows in grader report.
+
+ 2. Optional anonymous grading allows faculty to manually grade items in an anonymous manner.
+
+ 2. Quick Edit allows for faculty to edit a single item or student quickly and easilty while allowing for bulk grading.
+
+ 3. Gradebook Builder is for those who fear the complexity of the Moodle gradebook. Think of it as a quick-start.
